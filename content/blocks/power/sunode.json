@@ -1,0 +1,15 @@
+{
+  "type": "PowerNode",
+  "name": "sunode",
+  "description": "power node",
+  "size": 1,
+  "health": 40,
+  "laserRange": 14,
+  "maxNodes": 14,
+  "requirements": [
+    "copper/1",
+    "lead/2",
+    "sukwi_iron/1"
+  ],
+  "category": "power",
+}

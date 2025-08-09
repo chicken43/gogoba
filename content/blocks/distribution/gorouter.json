@@ -1,0 +1,17 @@
+{
+  "name": "go_router",
+  "description": "It has a low distribution speed.",
+  "type": "Router",
+  "dumpTime": 1,
+  "speed": 0.02,
+  "health": 75,
+  "itemCapacity": 20,
+  "size": 1,
+  "requirements": [
+    {"item": "copper", "amount": 5},
+    {"item": "sukwi_iron", "amount": 2}
+  ],
+  "category": "distribution",
+  "research": "gotech_distribution",
+  "alwaysUnlocked": true,
+}

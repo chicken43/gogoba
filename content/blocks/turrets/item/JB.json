@@ -1,0 +1,74 @@
+{
+  "type": "ItemTurret",
+  "name": "jungmublaster",
+  "description": "mujisung",
+  "health": 600,
+  "reload": 4,
+  "range": 200,
+  "size": 3,
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.1 
+    } 
+  },
+  "researchCostMultiplier": 2,
+  "inaccuracy": 10,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "sukwi_steel": {
+      "speed": 3.5,
+      "ammoMultiplier": 4,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "damage": 30,
+      "lifetime": 40,
+      "width": 8,
+      "height": 14,
+    },
+    "sukwi_iron": {
+      "type": "BasicBulletType",
+      "width": 8,
+      "height": 14,
+      "damage": 24,
+      "lifetime": 50,
+      "speed": 3.2,
+      "hitSize": 8,
+      "ammoMultiplier": 6,
+    },
+    "shum": {
+      "type": "BasicBulletType",
+      "width": 8,
+      "height": 14,
+      "damage": 50,
+      "speed": 4,
+      "lifetime": 50,
+      "hitSize": 8,
+      "ammoMultiplier": 4, 
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 170
+    },
+    {
+      "item": "schrom",
+      "amount": 40
+    },
+    {
+      "item": "sukwi_steel",
+      "amount": 50
+    },
+    {
+      "item": "shurium",
+      "amount": 50
+    },
+    {
+      "item": "silicon",
+      "amount": 40
+    }
+  ],
+  "category": "turret",
+  "research": "JD",
+}	

@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "graphite_presser",
+  "description": "Crafts stell.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 30,
+  "craftTime": 80,
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        {
+          "item": "coal",
+          "amount": 2
+        },
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 40
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 5
+    },
+  ],
+  "category": "crafting",
+  "outputItem": {
+    "item": "graphite",
+    "amount": 2
+  }
+}

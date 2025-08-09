@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "Acid Synthesizer",
+  "description": "Crafts acid",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": true,
+  "itemCapacity": 0,
+  "craftTime": 130,
+  "consumes": {
+    "power": 6,
+    "liquids": [
+      {
+        "liquid": "sukwi_spit",
+        "amount": 4
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 80
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 50
+    },
+    { 
+      "item": "graphite",
+      "amount": 20
+    }
+  ],
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "sukwi_acid",
+    "amount": 2
+  }
+}

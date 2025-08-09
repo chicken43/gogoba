@@ -1,0 +1,19 @@
+{
+  "type": "Liquid",
+  "moveThroughBlocks": false,
+  "canStayOn": [],
+  "incinerable": false,
+  "spreadDamage": 14,
+  "capPuddles": true,
+  "maxSpread": 1.4,
+  "name": "sukwi acid",
+  "description": "A dangerous liquid.",
+  "temperature": 0.4,
+  "coolant": false,
+  "color": "cde03a",
+  "colorFrom": "b0bf1a",
+  "colorTo": "f8f854",
+  "blockReactive": false,
+  "viscosity": 0.2,
+  "effect": "sukwiacidmelt"
+}

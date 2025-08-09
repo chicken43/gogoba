@@ -1,0 +1,31 @@
+{
+  "type": "mech",
+  "name": "[yellow]L_jungmu2",
+  "description": "fuck",
+  "drag": 0.15,
+  "speed": 4,
+  "armor": 10,
+  "health": 260,
+  "itemCapacity": 80,
+  "weapons": [
+    {
+      "name": "jungmugun",
+      "reload": 90,
+      "shootSound": "laser",
+      "alternate": true,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 30,
+        "width": 15,
+        "length": 180,
+        "shootEffect": "shockwave",
+        "colors": [
+          "ec7458aa",
+          "ff9c5a",
+          "ffffff"
+        ]
+      }
+    }
+  ],
+  "hitSize": 6
+}

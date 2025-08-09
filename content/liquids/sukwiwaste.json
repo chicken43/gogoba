@@ -1,0 +1,19 @@
+{
+  "type": "CellLiquid",
+  "moveThroughBlocks": false,
+  "canStayOn": [],
+  "incinerable": false,
+  "spreadDamage": 0,
+  "capPuddles": true,
+  "maxSpread": 2,
+  "name": "sukwitoxin",
+  "description": "Highly toxic industrial waste.",
+  "temperature": 0.2,
+  "coolant": false,
+  "color": "cde03a",
+  "colorFrom": "b0bf1a",
+  "colorTo": "f8f854",
+  "blockReactive": false,
+  "viscosity": 0.6,
+  "effect": "sukwitoxin"
+}

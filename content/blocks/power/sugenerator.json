@@ -1,0 +1,50 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "su generator",
+    "description": "fuck you.",
+    "size": 3,
+    "health": 785,
+    "consumeEffect": "surgeCruciSmoke",
+    "explodeOnFull": false,
+    "itemDuration": 60,
+    "consumes": {
+        "itemFlammable": {},
+        "itemExplode": {}
+      },
+    "hasLiquids": true,
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawRegion",
+          "suffix": "-bottom" 
+        },
+        {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "slag"
+        },
+        {
+          "type": "DrawCircles",
+          "color": "ffc073",
+          "strokeMax": 1,
+          "radius": 10,
+          "amount": 3,
+        },
+        {
+          "type": "DrawBlurSpin",
+          "suffix": "-rotator",
+          "rotateSpeed": 0.5
+        },
+        {
+          "type": "DrawDefault" 
+        }
+      ]
+    },
+    "category": "power",
+    "powerProduction": 2,
+    "requirements": [
+      "copper/120",
+      "lead/100",
+      "sukwi_iron/100",
+    ]
+  }

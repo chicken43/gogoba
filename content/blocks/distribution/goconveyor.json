@@ -1,0 +1,26 @@
+{
+  "type": "Conveyor",
+  "name": "goconveyor",
+  "description": "so slow fuck conveyor.",
+  "details": "",
+  "health": 350,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1
+    },
+    {
+      "item": "lead",
+      "amount": 1
+    },
+    {
+      "item": "titanium",
+      "amount": 1
+    },
+  ],
+  "category": "distribution",
+  "speed": 0.2,
+  "displayedSpeed": 8,
+  "research": "gotech_distribution",
+  "alwaysUnlocked": true,
+}

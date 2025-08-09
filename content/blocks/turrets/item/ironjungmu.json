@@ -1,0 +1,53 @@
+{
+  "type": "ItemTurret",
+  "name": "iron jumgmu",
+  "description": "IJM.",
+  "health": 300,
+  "maxAmmo": 10,
+  "reload": 14,
+  "commandable": false,
+  "targetAir": false,
+  "shootX": 0,
+  "shootY": 0,
+  "targetGround": true,
+  "shootSound": "launch",
+  "size": 3,
+  "unitSort": "strongest",
+  "hasLiquids": false,
+  "hasPower": true,
+  "consumes": {
+    "power": 63.333333333333333333333333333333
+  },
+  "rotateSpeed": 0,
+  "shootCone": 360,
+  "rotate": false,
+  "shootEffect": {
+              "particles": 1,
+              "spin": 60,
+              "colorFrom": "c80000",
+              "colorTo": "ff2424",
+              "lifetime": 600,
+            },
+  "recoil": 0,
+  "range": 1600,
+  "inaccuracy": 0,
+  "ammoTypes": {
+    "shum": {
+      "speed": 0,
+      "damage": 0,
+      "instantDisappear": true,
+      "spawnUnit": "IJM"
+    }
+  },
+  "requirements": [
+    "copper/800",
+    "lead/500",
+    "graphite/400",
+    "silicon/350",
+    "plastanium/240",
+    "sukwi_iron/100"
+  ],
+  "category": "turret",
+  "canOverdrive": false,
+  "research": "JD"
+}

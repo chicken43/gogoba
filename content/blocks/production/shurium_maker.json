@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "shurium maker",
+  "description": "Crafts stell.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 60,
+  "craftTime": 130,
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        {
+          "item": "titanium",
+          "amount": 1
+        },
+       {
+          "item": "sukwi_iron",
+          "amount": 2
+        },
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 80
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 50
+    },
+    { 
+      "item": "graphite",
+      "amount": 20
+    },
+  ],
+  "category": "crafting",
+  "outputItem": {
+    "item": "shurium",
+    "amount": 2
+  }
+}

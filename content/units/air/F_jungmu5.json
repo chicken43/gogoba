@@ -1,0 +1,88 @@
+{
+  "type": "flying",
+  "flying": true,
+  "name": "F_jungmu5",
+  "description": "A.",
+  "health": 8340,
+  "speed": 1.65,
+  "accel": 0.08,
+  "drag": 0.016,
+  "hitSize": 10,
+  "targetAir": false,
+  "engineOffset": 7.8,
+  "range": 140,
+  "faceTarget": false,
+  "armor": 14,
+  "itemCapacity": 140,
+  "targetFlags": ["factory"],
+  "circleTarget": true,
+  "weapons": [
+     {
+      "name": "jumgmugun",
+      "top": false,
+      "y": 1,
+      "x": 9,
+      "reload": 40,
+      "rotate": true,
+      "recoil": 3,
+      "shake": 2,
+      "ejectEffect": "casing2",
+      "shootSound": "artillery",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "hitEffect": "blastExplosion",
+        "knockback": 0.8,
+        "lifetime": 140,
+        "speed": 2.2,
+        "damage": 48,
+        "width": 14,
+        "height": 14,
+        "collides": true,
+        "collidesTiles": true,
+        "splashDamageRadius": 42,
+        "splashDamage": 85,
+        "backColor": "5461c5",
+        "frontColor": "6d7dff"
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "width": 5,
+          "height": 7,
+          "lifetime": 20,
+          "speed": 2,
+          "damage": 20,
+          "buildingDamageMultiplier": 2,
+          "status": "burning",
+          "pierce": false,
+          "hitSize": 4,
+          "hitColor": "d06b53",
+          "backColor": "d06b53",
+          "frontColor": "ffffff",
+          "trailColor": "d06b53",
+          "trailWidth": 3.2,
+          "trailLength": 8,
+          "hitEffect": "blastExplosion",
+          "splashDamageRadius": 24,
+          "splashDamage": 44,
+        }
+      }
+    },
+    {
+      "name": "jungmugun",
+      "reload": 90,
+      "shootSound": "laser",
+      "alternate": true,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 30,
+        "width": 15,
+        "length": 180,
+        "shootEffect": "shockwave",
+        "colors": [
+          "ec7458aa",
+          "ff9c5a",
+          "ffffff"
+        ]
+      }
+    }
+  ],
+}

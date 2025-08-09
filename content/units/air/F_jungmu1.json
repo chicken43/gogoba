@@ -1,0 +1,45 @@
+{
+  "type": "flying",
+  "flying": true,
+  "name": "F_jungmu1",
+  "description": "A.",
+  "health": 340,
+  "speed": 1.65,
+  "accel": 0.08,
+  "drag": 0.016,
+  "hitSize": 10,
+  "targetAir": false,
+  "engineOffset": 7.8,
+  "range": 140,
+  "faceTarget": false,
+  "armor": 3,
+  "itemCapacity": 0,
+  "targetFlags": ["factory"],
+  "circleTarget": true,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "FJ1",
+      "y": -1,
+      "reload": 18,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "lightColor": "ff4000",
+        "width": 9,
+        "height": 14,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "status": burning,
+        "buildingDamageMultiplier": 2.8
+      }
+    }
+  ],
+}

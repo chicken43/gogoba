@@ -1,0 +1,51 @@
+{
+  "type": "UnitFactory",
+  "name": "jungmu1_maker",
+  "description": "happppppppppppppppppppppppppppppy is gogoba,
+  "size": 3,
+  "health": 400,
+  "requirements": [
+    "copper/250",
+    "lead/200",
+    "silicon/150",
+    "sukwi_iron/50"
+  ],
+  "category": "units",
+  "consumes": {
+    "power": 80
+  },
+  "plans": [
+    {
+      "unit": "[orange]B_jungmu1",
+      "time": 600,
+      "requirements": [
+        "silicon/10",
+        "lead/5"
+      ]
+    },
+    {
+      "unit": "[yellow]L_jungmu1r",
+      "time": 650,
+      "requirements": [
+        "silicon/8",
+        "sukwi_iron/5"
+      ]
+    },
+    {
+      "unit": "F_jungmu1",
+      "time": 900,
+      "requirements": [
+        "silicon/15",
+        "titanium/10"
+      ]
+    },
+    {
+      "unit": "N_jungmu1",
+      "time": 900,
+      "requirements": [
+        "silicon/15",
+        "/10"
+      ]
+    }
+  ]
+}

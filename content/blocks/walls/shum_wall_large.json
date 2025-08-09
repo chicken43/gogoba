@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "shum wall",
+  "description": "fuck?.",
+  "size": 2,
+  "health": 4800,
+  "category": "defense",
+  "requirements": [
+    "shum/24"  
+  ]
+}

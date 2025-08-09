@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "sukwi schrom wall large",
+  "description": "fuck?.",
+  "size": 2,
+  "health": 3760,
+  "category": "defense",
+  "requirements": [
+    "sukwi_steel/6"  
+  ]
+}

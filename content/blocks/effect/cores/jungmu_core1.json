@@ -1,0 +1,26 @@
+{
+  "type": "CoreBlock",
+  "name": "jungmu core1",
+  "description": "Core",
+  "size": 3,
+  "researchCostMultiplier": 0.5,
+  "health": 2000,
+  "itemCapacity": 1400,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1000
+    },
+    {
+      "item": "lead",
+      "amount": 1000
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 500
+    }
+  ],
+  "category": "effect",
+  "unitType": "coreunit1",
+  "unitCapModifier": 14
+}

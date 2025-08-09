@@ -1,0 +1,47 @@
+{
+  "type": "GenericCrafter",
+  "name": "supurifier",
+  "description": "Crafts f",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 60,
+  "craftTime": 300,
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        {
+          "item": "nuclearwaste",
+          "amount": 15
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 40
+    },
+    {
+      "item": "sukwi_steel",
+      "amount": 20
+    },
+    { 
+      "item": "graphite",
+      "amount": 10
+    }
+  ],
+  "category": "crafting",
+  "outputItems": [
+    {
+      "item": "syunadeonyum",
+      "amount": 2
+    },
+    {
+      "item": "nadeotonyum",
+      "amount": 3
+    }
+  ]
+}

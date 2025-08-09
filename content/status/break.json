@@ -1,0 +1,16 @@
+{
+          "name": "break",
+          "damage": 14,
+          "permanent": true,
+          "alwaysUnlocked": false,
+          "speedMultiplier": 0.2,
+          "reloadMultiplier": 0.2,
+          "healthMultiplier": 0.5,
+          "effect": {
+            "type": "ParticleEffect",
+            "particles": 8,
+            "colorFrom": "eb36ff",
+            "colorTo": "ffadfa",
+            "interp": "circleOut"
+          } 
+}

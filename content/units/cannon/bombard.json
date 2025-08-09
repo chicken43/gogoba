@@ -1,0 +1,50 @@
+{
+  "type": "mech",
+  "name": "bombard",
+  "drag": 0.4,
+  "description": "f",
+  "health": 500,
+  "armor": 3,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "jumgmugun",
+      "y": -1,
+      "reload": 36,
+      "mirror": false,
+      "rotate": true,
+      "recoil": 10,
+      "inaccuracy": 45,
+      "shoot": {
+        "shots": 32,
+        "shotDelay": 0
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 6,
+        "speed": 8,
+        "lifetime": 40,
+        "damage": 30,
+        "pierce": false,
+        "collidesTeam": true,
+      }
+    }
+  ],
+}

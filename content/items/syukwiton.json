@@ -1,0 +1,10 @@
+{
+  "name": "syukwiton",
+  "description": syukwiton.",
+  "cost": 2.5,
+  "color": "ff00e1",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 2,
+  "radioactivity": 14,
+}

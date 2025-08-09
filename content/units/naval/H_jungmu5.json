@@ -1,0 +1,86 @@
+{
+  "type": "naval",
+  "name": "[orange]h_jungmu5",
+  "description": "f",
+  "health": 50000,
+  "armor": 3,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": True,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 2,
+      "name": "jumgmugun",
+      "y": -1,
+      "reload": 74,
+      "mirror": true,
+      "rotate": true,
+      "inaccuracy": 5,
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 32,
+        "height": 25,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 440,
+        "pierce": true,
+        "pierceCap": 12,
+        "buildingDamageMultiplier": 0.5
+      }
+    },
+      {
+      "name": "jungmugun",
+      "reload": 20,
+      "x": 7,
+      "rotate": true,
+      "shake": 1,
+      "inaccuracy": 24,
+      "shoot": {
+        "shots": 5,
+        "shotDelay": 1,
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "hitEffect": "blastExplosion",
+        "knockback": 0.8,
+        "lifetime": 140,
+        "speed": 2.2,
+        "damage": 18,
+        "width": 14,
+        "height": 14,
+        "collides": true,
+        "collidesTiles": true,
+        "splashDamageRadius": 42,
+        "splashDamage": 30,
+        "backColor": "5461c5",
+        "frontColor": "6d7dff"
+        "fragOnHit": false,
+        "fragRandomSpread": 5,
+        "fragSpread": 1,
+        "fragBullets": 20,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
+        "despawnSound": "dullExplosion",
+        "collides": true,
+        "collidesTiles": true,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "width": 6,
+          "height": 10,
+          "speed": 4,
+          "lifetime": 40,
+          "damage": 24,
+          "pierce": false,
+          "buildingDamageMultiplier": 2.8
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "nuclearwaste",
+  "description": "Nuclear materials can be extracted",
+  "cost": 2.5,
+  "color": "22b400",
+  "hardness": 5,
+  "flammability": 1.4,
+  "explosiveness": 2,
+  "radioactivity": 4,
+}

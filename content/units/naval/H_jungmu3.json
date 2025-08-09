@@ -1,0 +1,74 @@
+{
+  "type": "naval",
+  "name": "[orange]h_jungmu3",
+  "description": "f",
+  "health": 500,
+  "armor": 3,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": True,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 2,
+      "name": "jumgmugun",
+      "y": -1,
+      "reload": 18,
+      "mirror": true,
+      "rotate": true,
+      "shoot": {
+        "shots": 6,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 10,
+        "height": 14,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 30,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+      }
+    },
+      {
+      "name": "jungmugun",
+      "reload": 147,
+      "x": 7,
+      "rotate": true,
+      "shake": 1,
+      "shoot": {
+        "shots": 4,
+        "shotDelay": 1,
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 5,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 8,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+        "keepVelocity": false,
+        "splashDamageRadius": 28,
+        "splashDamage": 16,
+        "lifetime": 150,
+        "trailColor": "5461c5",
+        "backColor": "5461c5",
+        "frontColor": "6d7dff",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+      }
+    }
+  ]
+}

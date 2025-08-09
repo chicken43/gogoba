@@ -1,0 +1,16 @@
+{
+          "name": "sukwi",
+          "damage": 0.14,
+          "permanent": true,
+          "alwaysUnlocked": true,
+          "speedMultiplier": 0.2,
+          "reloadMultiplier": 0.9,
+          "healthMultiplier": 0.9,
+          "effect": {
+            "type": "ParticleEffect",
+            "particles": 8,
+            "colorFrom": "eb36ff",
+            "colorTo": "ffadfa",
+            "interp": "circleOut"
+          } 
+}

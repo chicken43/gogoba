@@ -1,0 +1,103 @@
+{
+  "type": "ItemTurret",
+  "name": "jungmug",
+  "description": "mujisung",
+  "health": 600,
+  "reload": 4,
+  "range": 200,
+  "size": 2,
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.1 
+    } 
+  },
+  "researchCostMultiplier": 2,
+  "inaccuracy": 10,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "sukwi_steel": {
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 0
+      },
+      "speed": 3.5,
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "damage": 25,
+      "lifetime": 40,
+      "width": 8,
+      "height": 14,
+      "type": "BasicBulletType",
+      "width": 8,
+      "height": 14,
+      "damage": 20,
+      "lifetime": 50,
+      "speed": 3.2,
+      "hitSize": 8,
+      "ammoMultiplier": 3,
+    },
+    "shum": {
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 0
+      },
+      "type": "BasicBulletType",
+      "width": 8,
+      "height": 14,
+      "damage": 42,
+      "speed": 4,
+      "lifetime": 50,
+      "hitSize": 8,
+      "ammoMultiplier": 2, 
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 170
+    },
+    {
+      "item": "schrom",
+      "amount": 40
+    },
+    {
+      "item": "sukwi_steel",
+      "amount": 50
+    },
+    {
+      "item": "shurium",
+      "amount": 50
+    },
+    {
+      "item": "silicon",
+      "amount": 40
+    }
+  ],
+  "category": "turret",
+  "research": "JD"
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-back",
+        "mirror": true,
+        "progress": "warmup",
+        "moveX": 1.35,
+        "moveY": 1.5,
+        "moveRot": -22,
+        "under": true,
+        "moves": [
+          { 
+            "type": "PartMove",
+            "progress": "recoil",
+            "moveRot": -32,
+            "moveY": -2
+          }
+        ]
+      }
+    ]
+  }
+}	

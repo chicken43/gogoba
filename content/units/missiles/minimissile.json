@@ -1,0 +1,42 @@
+{
+  "type": "missile",
+  "flying": true,
+  "template": "MissileUnitType",
+  "speed": 5,
+  "lifetime": 280,
+  "trailColor": "ffaa5f",
+  "trailLength": 10,
+  "drawCell": false,
+  "weapons": [
+    {
+      "shootCone": 360,
+      "mirror": false,
+      "reload": 1,
+      "shootOnDeath": true,
+      "shake": 5,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "splashDamage": 30,
+        "splashDamageRadius": 14,
+        "ammoMultiplier": 7
+        "fragOnHit": false,
+        "fragRandomSpread": 0,
+        "fragSpread": 18,
+        "fragBullets": 20,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
+        "despawnSound": "dullExplosion",
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "width": 6,
+          "height": 10,
+          "speed": 3,
+          "lifetime": 40,
+          "damage": 8,
+          "pierce": false,
+         "buildingDamageMultiplier": 2.8
+        }
+      }
+    }
+  ]
+}

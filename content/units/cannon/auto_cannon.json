@@ -1,0 +1,49 @@
+{
+  "type": "mech",
+  "name": "auto_cannon",
+  "drag": 0.4,
+  "description": "f",
+  "health": 500,
+  "armor": 3,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "jumgmugun",
+      "y": -1,
+      "reload": 18,
+      "mirror": false,
+      "rotate": true,
+      "inaccuracy": 15,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "shake": 6,
+        "recoil": 1,
+        "width": 9,
+        "height": 13,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 28,
+        "pierce": false,
+        "splashDamageRadius": 42,
+        "splashDamage": 85,
+        "buildingDamageMultiplier": 0.8
+      }
+    }
+  ],
+}

@@ -1,0 +1,12 @@
+{
+  "name": "NA14",
+  "description": "fuck.",
+  "heatCapacity": 4,
+  "explosiveness": 0.2,
+  "temperature": 3,
+  "gas": true,
+  "color": "c300ff",
+  "gasColor": "c300ff"
+  "flammability": 0,
+  "coolant": false
+}

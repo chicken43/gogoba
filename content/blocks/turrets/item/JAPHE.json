@@ -1,0 +1,123 @@
+{
+  "type": "ItemTurret",
+  "name": "JAPHE",
+  "description": "JUNGMUDOUBLE",
+  "health": 500,
+  "reload": 48,
+  "range": 220,
+  "size": 2,
+  "consumes": {
+    "coolant": {
+      "amount": 0.1
+    }
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 2,
+    "spread": 5,
+    "shotDelay": 15
+  },
+  "researchCostMultiplier": 0.1,
+  "inaccuracy": 3,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "copper": {
+      "speed": 5,
+      "ammoMultiplier": 3,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "width": 8,
+      "damage": 14,
+      "lifetime": 50,
+      "height": 8,
+      "frontColor": "ffffff",
+      "backColor": "d06b53",
+      "trailColor": "d06b53",
+      "hitColor": "d06b53",
+      "pierce": true,
+      "pierceBuilding": true,
+      "pierceCap": 7,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+      }
+    },
+    "sukwi_steel": {
+      "type": "BasicBulletType",
+      "width": 8,
+      "height": 8,
+      "damage": 21,
+      "lifetime": 50,
+      "speed": 7,
+      "hitSize": 8,
+      "ammoMultiplier": 6,
+      "frontColor": "ffffff",
+      "backColor": "d06b53",
+      "trailColor": "d06b53",
+      "hitColor": "d06b53",
+      "pierce": true,
+      "pierceBuilding": true,
+      "pierceCap": 7,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+      }
+    },
+    "shum": {
+      "type": "BasicBulletType",
+      "height": 8,
+      "width": 8,
+      "damage": 18,
+      "speed": 14,
+      "lifetime": 50,
+      "hitSize": 8,
+      "ammoMultiplier": 7,
+      "frontColor": "ffffff",
+      "backColor": "d06b53",
+      "trailColor": "d06b53",
+      "hitColor": "d06b53",
+      "pierce": true,
+      "pierceBuilding": true,
+      "pierceCap": 7,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+      }
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 70
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 70
+    },
+    {
+      "item": "silicon",
+      "amount": 35
+    }
+  ],
+  "category": "turret",
+  "research": "JD"
+}

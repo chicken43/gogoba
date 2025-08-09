@@ -1,0 +1,50 @@
+{
+  "type": "naval",
+  "name": "[orange]h_jungmu1",
+  "description": "f",
+  "health": 500,
+  "armor": 3,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": True,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "jumgmugun",
+      "y": -1,
+      "reload": 18,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+        "collidesTeam": true,
+      }
+    }
+  ],
+    "abilities": [
+     {
+      "type": "ForceFieldAbility",
+      "radius": 10,
+      "regen": 2,
+      "max": 240,
+      "cooldown": 480
+    } 
+  ],
+"hitSize": 10
+}

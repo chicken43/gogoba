@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "localizedName": "ore_sukwi_iron",
+  "itemDrop": "sukwi_iron",
+  "hasColor": true,
+  "mapColor": "948a8a",
+  "variants": 3
+}

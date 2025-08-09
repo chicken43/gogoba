@@ -1,0 +1,41 @@
+{
+  "type": "GenericCrafter",
+  "name": "steel melter",
+  "description": "Crafts stell.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 60,
+  "craftTime": 100,
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        {
+          "item": "sukwi_iron",
+          "amount": 2
+        },
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 10
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 50
+    },
+    { 
+      "item": "graphite",
+      "amount": 10
+    },
+  ],
+  "category": "crafting",
+  "outputItem": {
+    "item": "sukwi_steel",
+    "amount": 2
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "silicon_maker",
+  "description": "Crafts silicon",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 60,
+  "craftTime": 100,
+  "consumes": {
+    "power": 6,
+    "items": {
+      "items": [
+        {
+          "item": "coal",
+          "amount": 2
+        },
+        {
+          "item": "sukwi_sand",
+          "amount": 2
+        },
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 40
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 20
+    },
+    { 
+      "item": "graphite",
+      "amount": 10
+    },
+  ],
+  "category": "crafting",
+  "outputItem": {
+    "item": "silicon",
+    "amount": 2
+  }
+}

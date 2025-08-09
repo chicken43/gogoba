@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "wallcheat",
+  "description": "cheater",
+  "size": 1,
+  "health": 1414141414,
+  "category": "sandbox",
+  "requirements": [
+    "sukwi_iron/6"  
+  ]
+}
