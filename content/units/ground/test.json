@@ -1,0 +1,40 @@
+{
+  "type": "mech",
+  "name": "testsukwi",
+  "description": "test",
+  "health": 141414141414141414141414,
+  "armor": 141414141414141414141414141414141414141414141414141414141414,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 12,
+      "y": 8,
+      "width": 14,
+      "height": 17,
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "abilities": [
+    {
+      "type": "RepairFieldAbility", 
+      "range": 140, 
+      "amount": 147, 
+      "reload": 0.14, 
+      "activeEffect": {
+        "type": "WaveEffect", 
+        "sizeFrom": 0, 
+        "sizeTo": 60, 
+        "colorFrom": "84f491", 
+        "colorTo": "62ae7f"
+      }
+    },
+  ],
+  "mineSpeed": 2,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "canHeal": true,
+}

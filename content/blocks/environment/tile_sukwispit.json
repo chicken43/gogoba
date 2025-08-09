@@ -1,0 +1,20 @@
+{
+  "type": "Floor",
+  "name": "sukwi_spit_tile",
+  "description": "fuck!",
+  "status": "sukwispit_melt",
+  "statusDuration": 300,
+  "speedMultiplier": 0.7,
+  "variants": 0,
+  "liquidDrop": "sukwispit",
+  "isLiquid": true,
+  "cacheLayer": "water",
+  "attributes": {
+    "water": -1
+  },
+  "emitLight": true,
+  "lightRadius": 5,
+  "lightColor": "9ed17161",
+  "albedo": 0.9,
+  "supportsOverlay": true
+}

@@ -1,0 +1,100 @@
+{
+  "type": "mech",
+  "name": "[yellow]L_jungmu5",
+  "description": "fuck",
+  "drag": 0.15,
+  "speed": 4,
+  "armor": 10,
+  "health": 4600,
+  "itemCapacity": 80,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 2,
+      "reload": 250,
+      "mirror": True,
+      "top": false,
+      "name": "nothing",
+      "rotate": false,
+      "shootCone": 30,
+      "shootSound": "railgun",
+      "bullet": {
+        "maxRange": 900,
+        "type": "PointBulletType",
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 6,
+          "rotWithParent": true,
+          "length": 10,
+          "line": true,
+          "colorFrom": "c85c51",
+          "colorTo": "ff795e",
+          "sizeFrom": 5,
+          "sizeTo": 5,
+          "sizeInterp": "pow2Out"
+        },
+        "speed": 8,
+        "lifetime": 20,
+        "hitEffect": "none",
+        "despawnEffect": "none"
+        "damage": 4500,
+        "splashDamage": 15,
+        "splashDamageRadius": 32,
+        "hitEffect": "instHit",
+        "despawnHit": true,
+        "pierce": true,
+        "buildingDamageMultiplier": 0.4
+      }
+    },
+      {
+      "name": "L5classic",
+      "reload": 20,
+      "x": 4,
+      "y": 2,
+      "top": false,
+      "shootSound": "lasershoot",
+      "ejectEffect": "casing1",
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 4
+      },
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 2.5,
+        "damage": 220,
+        "lifetime": 90,
+        "weaveMag": 4,
+        "weaveScale": 4,
+        "shootEffect": "shootSmall",
+        "frontColor": "ffffff",
+        "hitSound": "none",
+        "width": 14,
+        "height": 14,
+        "lightColor": "ff80fd",
+        "trailColor": "fa3ef7",
+        "backColor": "ff12fb",
+        "lightRadius": 40,
+        "lightOpacity": 0.7,
+        "trailWidth": 2.2,
+        "trailLength": 18,
+        "trailChance": -1,
+        "despawnEffect": "none",
+        "despawnHit": true,
+        "hitEffect": {
+          "type": "chainEmp",
+          "lifetime": 20,
+          "waveStroke": 1.2,
+          "waveColor": "fa3ef7",
+          "sparkColor": "fa3ef7",
+          "waveRad": 12,
+          "smokeSize": 0,
+          "smokeSizeBase": 0,
+          "sparks": 8,
+          "sparkRad": 35,
+          "sparkLen": 3,
+          "sparkStroke": 1.2
+        }
+      }
+    }
+  ]
+}

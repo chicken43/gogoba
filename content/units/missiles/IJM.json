@@ -1,0 +1,25 @@
+{
+  "type": "missile",
+  "flying": true,
+  "template": "MissileUnitType",
+  "speed": 12,
+  "lifetime": 180,
+  "trailColor": "ffaa5f",
+  "trailLength": 10,
+  "drawCell": false,
+  "weapons": [
+    {
+      "shootCone": 360,
+      "mirror": false,
+      "reload": 1,
+      "shootOnDeath": true,
+      "shake": 1,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "splashDamage": 112,
+        "splashDamageRadius": 14,
+        "ammoMultiplier": 7
+      }
+    }
+  ]
+}

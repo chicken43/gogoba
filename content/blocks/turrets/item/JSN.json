@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "goniper",
+  "description": "trash",
+  "targetGround": true,
+  "targetAir": false,
+  "health": 1200,
+  "size": 3,
+  "inaccuracy": 0,
+  "reload": 400,
+  "unitSort": "strongest",
+  "recoil": 6,
+  "recoilTime": 300,
+  "ammoUseEffect": "casing3",
+  "coolantMultiplier": 1,
+  "consumes": {
+    "coolant": {
+      "amount": 0.8 
+    } 
+  },
+  "shootSound": "shootBig",
+  "maxAmmo": 50,
+  "rotateSpeed": 8,
+  "range": 500,
+  "ammoTypes": {
+    "copper": {
+      "type": "PointBulletType",
+      "trailEffect": {
+        "type": "ParticleEffect",
+        "particles": 26,
+        "rotWithParent": true,
+        "line": true,
+        "length": 10,
+        "colorFrom": "b8705c",
+        "colorTo": "eac2a9",
+        "sizeFrom": 10,
+        "sizeTo": 10,
+      },
+      "speed": 12,
+      "hitEffect": "titanExplosion"
+      "despawnEffect": "none"
+      "damage": 300,
+      "splashDamage": 300,
+      "splashDamageRadius": 16,
+      "ammoMultiplier": 2,
+      "pierce": true,
+      "pierceBuilding": true,
+      "buildingDamageMultiplier": 0.2
+    },
+  },
+  "requirements": [
+    "copper/255",
+    "lead/180",
+    "titanium/120",
+    "plastanium/55"
+  ],
+  "category": "turret",
+  "research": "JD"
+  "buildVisibility": "shown"
+}

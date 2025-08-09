@@ -1,0 +1,41 @@
+{
+  "type": "GenericCrafter",
+  "name": "research reactor",
+  "description": "Crafts stell.",
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 60,
+  "craftTime": 130,
+  "consumes": {
+    "power": -6,
+    "items": {
+      "items": [
+       {
+          "item": "syukwiton",
+          "amount": 14
+        },
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 80
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 50
+    },
+    { 
+      "item": "graphite",
+      "amount": 20
+    },
+  ],
+  "category": "crafting",
+  "outputItem": {
+    "item": "nuclearwaste",
+    "amount": 14
+  }
+}

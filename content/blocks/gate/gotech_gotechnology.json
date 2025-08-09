@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "name": "gotech_gotechnology",
+    "description": "The true founder of go_technology",
+    "details": "fucking tech.",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": {
+      "root": true,
+      "name": "naduoso",
+      "requiresUnlock": false
+    }
+    "size": 1
+}

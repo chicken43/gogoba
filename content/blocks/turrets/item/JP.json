@@ -1,0 +1,41 @@
+{
+  "name": "JARC",
+  "description": "JONNA GANGHAM",
+  "size": 2,
+  "range": 130,
+  "reload": 10,
+  "shootSound": "spark",
+  "shootCone": 30,
+  "shootType": {
+    "type": "LightningBulletType",
+    "lightningLength": 18,
+    "damage": 50
+  },
+  "rotateSpeed": 100,
+  "consumes": {
+    "power": 8,
+  },
+  "targetAir": false,
+  "targetGround": true,
+  "heatColor": "ff0000",
+  "shootEffect": "lightningShoot",
+  "recoil": 0.5,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 150
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 20
+    }
+  ],
+  "category": "turret",
+  "type": "PowerTurret",
+  "health": 420,
+  "research": "JD"
+}

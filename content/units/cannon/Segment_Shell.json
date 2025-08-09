@@ -1,0 +1,75 @@
+{
+  "type": "mech",
+  "name": "Segment_Shell",
+  "drag": 0.4,
+  "description": "f",
+  "health": 500,
+  "armor": 3,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "jumgmugun",
+      "y": -1,
+      "reload": 180,
+      "mirror": false,
+      "rotate": true,
+      "inaccuracy": 5,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "recoil": 1,
+        "shake": 6,
+        "width": 17,
+        "height": 22,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 28,
+        "collides": true,
+        "collidesTiles": true,
+        "pierce": false,
+        "buildingDamageMultiplier": 0.8
+        "fragOnHit": false,
+        "fragRandomSpread": 14,
+        "fragSpread": 0,
+        "fragBullets": 8,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "width": 8,
+          "height": 14,
+          "lifetime": 20,
+          "speed": 2,
+          "damage": 20,
+          "buildingDamageMultiplier": 2,
+          "pierce": false,
+          "hitSize": 4,
+          "hitColor": "d06b53",
+          "backColor": "d06b53",
+          "frontColor": "ffffff",
+          "trailColor": "d06b53",
+          "trailWidth": 3.2,
+          "trailLength": 8,
+          "hitEffect": "blastExplosion",
+          "splashDamageRadius": 24,
+          "splashDamage": 44,
+        }
+      }
+    },
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "ItemTurret",
+  "name": "JSH",
+  "description": "jungmushooter",
+  "health": 500,
+  "reload": 160,
+  "range": 200,
+  "size": 4,
+  "consumes": {
+    "coolant": {
+      "amount": 0.1
+    }
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 5,
+    "spread": 5,
+    "shotDelay": 0
+  },
+  "researchCostMultiplier": 0.1,
+  "inaccuracy": 10,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "graphite": {
+      "speed": 3,
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "type": "ArtilleryBulletType",
+      "width": 8,
+      "height": 8,
+      "splashDamage": 200,
+      "splashDamageRadius": 12,
+      "lifetime": 50
+    },
+    "sukwi_iron": {
+      "type": "ArtilleryBulletType",
+      "width": 16,
+      "height": 12,
+      "splashDamage": 300,
+      "splashDamageRadius": 12,
+      "lifetime": 50,
+      "speed": 3.2,
+      "hitSize": 8,
+      "ammoMultiplier": 2
+    },
+    "shum": {
+      "type": "ArtilleryBulletType",
+      "height": 16,
+      "width": 12,
+      "splashDamage": 300,
+      "speed": 4,
+      "lifetime": 50,
+      "hitSize": 8,
+      "ammoMultiplier": 2
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 300
+    },
+    {
+      "item": "lead",
+      "amount": 230
+    },
+    {
+      "item": "graphite",
+      "amount": 120
+    },
+    {
+      "item": "schrom",
+      "amount": 60
+    }
+  ],
+  "category": "turret",
+}

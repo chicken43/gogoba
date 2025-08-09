@@ -1,0 +1,15 @@
+{
+  "type": "battery",
+  "name": "subattery",
+  "description": "just go battery",
+  "size": 2,
+  "health": 140,
+  "category": "power",
+  "requirements": [
+    { "item": "lead", "amount": 120 },
+    { "item": "silicon", "amount": 80 },
+    { "item": "sukwi_iron", "amount": 20 }
+  ],
+  "consumes": { "powerBuffered": 56000 },
+  "research": "reinforced-large-power-node"
+}

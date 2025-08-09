@@ -1,0 +1,55 @@
+{
+  "type": "flying",
+  "flying": true,
+  "name": "N_jungmu2",
+  "description": "A.",
+  "health": 340,
+  "speed": 1.65,
+  "accel": 0.08,
+  "drag": 0.016,
+  "hitSize": 10,
+  "targetAir": false,
+  "engineOffset": 7.8,
+  "range": 140,
+  "faceTarget": false,
+  "armor": 3,
+  "itemCapacity": 0,
+  "targetFlags": ["factory"],
+  "circleTarget": true,
+  "weapons": [
+     {
+      "name": "nothing",
+      "top": false,
+      "y": 1,
+      "x": 9,
+      "reload": 107,
+      "rotate": true,
+      "recoil": 5,
+      "shake": 2,
+      "ejectEffect": "casing2",
+      "shootSound": "artillery",
+      "inaccuracy": 15,
+      "shoot": {
+        "shots": 4,
+        "shotDelay": 0
+      },
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "hitEffect": "blastExplosion",
+        "knockback": 0.8,
+        "lifetime": 140,
+        "speed": 2.2,
+        "damage": 48,
+        "width": 14,
+        "height": 14,
+        "collides": true,
+        "collidesTiles": true,
+        "splashDamageRadius": 72,
+        "splashDamage": 85,
+        "backColor": "00fc19",
+        "frontColor": "00ab11"
+        "status": sucleus,
+      }
+    } 
+  ]
+}

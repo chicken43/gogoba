@@ -1,0 +1,93 @@
+{
+  "type": "ItemTurret",
+  "name": "JUNGMUMACHINEGUN",
+  "description": "JUNGMUMACHINEGUN",
+  "health": 600,
+  "reload": 12,
+  "range": 200,
+  "size": 3,
+  "consumes": { 
+    "coolant": { 
+       "amount": 0.1 
+    } 
+  },
+  "researchCostMultiplier": 0.1,
+  "inaccuracy": 3,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "sukwi_steel": {
+      "speed": 3,
+      "ammoMultiplier": 8,
+      "hitSize": 8,
+      "type": "BasicBulletType",
+      "width": 12,
+      "damage": 120,
+      "lifetime": 40,
+      "height": 16,
+    },
+    "sukwi_iron": {
+      "type": "BasicBulletType",
+      "width": 12,
+      "height": 20,
+      "damage": 80,
+      "lifetime": 50,
+      "speed": 3.2,
+      "hitSize": 8,
+      "ammoMultiplier": 6,
+    },
+    "shum": {
+      "type": "BasicBulletType",
+      "height": 16,
+      "width": 12,
+      "damage": 180,
+      "speed": 4,
+      "lifetime": 50,
+      "hitSize": 8,
+      "ammoMultiplier": 4, 
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 170
+    },
+    {
+      "item": "schrom",
+      "amount": 40
+    },
+    {
+      "item": "sukwi_steel",
+      "amount": 50
+    },
+    {
+      "item": "silicon",
+      "amount": 40
+    }
+  ],
+  "category": "turret",
+  "research": "JD"
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-back",
+        "mirror": true,
+        "progress": "warmup",
+        "moveX": 1.35,
+        "moveY": 1.5,
+        "moveRot": -22,
+        "under": true,
+        "moves": [
+          { 
+            "type": "PartMove",
+            "progress": "recoil",
+            "moveRot": -32,
+            "moveY": -2
+          }
+        ]
+      }
+    ]
+  }
+}	

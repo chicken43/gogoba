@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "localizedName": "ore_schrom",
+  "itemDrop": "schrom",
+  "hasColor": true,
+  "mapColor": "46484d",
+  "variants": 3
+}

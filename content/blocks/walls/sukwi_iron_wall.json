@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "sukwi iron wall",
+  "description": "fuck?.",
+  "size": 1,
+  "health": 450,
+  "category": "defense",
+  "requirements": [
+    "sukwi_iron/6"  
+  ]
+}

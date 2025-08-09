@@ -1,0 +1,19 @@
+{
+  "type": "CellLiquid",
+  "moveThroughBlocks": false,
+  "canStayOn": [],
+  "incinerable": false,
+  "spreadDamage": 1,
+  "capPuddles": true,
+  "maxSpread": 0,
+  "name": "sukwi spit",
+  "description": "A dangerous liquid.",
+  "temperature": 0.2,
+  "coolant": false,
+  "color": "cde03a",
+  "colorFrom": "b0bf1a",
+  "colorTo": "f8f854",
+  "blockReactive": false,
+  "viscosity": 0.2,
+  "effect": "sukwispit_melt"
+}

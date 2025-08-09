@@ -1,0 +1,37 @@
+{
+  "name": "steam sukwi drill",
+  "description": "can mine schrom",
+  "type": "Drill",
+  "size": 3,
+  "liquidCapacity": 300,
+  "tier": 3,
+  "drillTime": 250,
+  "consumes": {
+    "power": 40,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": false,
+      "booster": false
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 110
+    }
+    {
+      "item": "lead",
+      "amount": 80
+    },
+    {
+      "item": "sukwi_steel",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 20
+    }
+  ],
+  "category": "production",
+}

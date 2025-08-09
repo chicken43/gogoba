@@ -1,0 +1,8 @@
+{
+	"name": "floor sukwi sand",
+	"type": "Floor",
+	"speedMultiplier": 0.4,
+	"variants": 3,
+	"itemDrop": "sukwi_sand",
+	"playerUnmineable": true,
+}

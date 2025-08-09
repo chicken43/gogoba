@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "localizedName": "ore_sukwi_gold",
+  "itemDrop": "sukwi_gold",
+  "hasColor": true,
+  "mapColor": "e8c515",
+  "variants": 3
+}

@@ -1,0 +1,15 @@
+{
+          "name": "sukwispit_melt",
+          "damage": 0.7,
+          "alwaysUnlocked": true,
+          "speedMultiplier": 0.2,
+          "reloadMultiplier": 0.9,
+          "healthMultiplier": 0.9,
+          "effect": {
+            "type": "ParticleEffect",
+            "particles": 112,
+            "colorFrom": "ffd9fb",
+            "colorTo": "752480",
+            "interp": "circleOut"
+          } 
+}

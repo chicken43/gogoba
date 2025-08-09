@@ -1,0 +1,50 @@
+{
+  "type": "legs",
+  "name": "coreunit1",
+  "description": "A.",
+  "speed": 0.6,
+  "drag": 0.4,
+  "hitSize": 13,
+  "rotateSpeed": 3,
+  "targetAir": false,
+  "health": 500,
+  "legCount": 4,
+  "legLength": 9,
+  "legForwardScl": 0.6,
+  "legMoveSpace": 1.4,
+  "hovering": true,
+  "armor": 2,
+  "shadowElevation": 0.2,
+  "groundLayer": 74,
+  "buildSpeed": 2.5,
+  "mineSpeed": 14,
+  "mineTier": 3,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "jungmugun",
+      "y": -1,
+      "reload": 18,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "jungmuice"
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "colorFrom": "00b3ff",
+        "colorTo": "91f4ff",
+        "damage": 8,
+        "pierce": false,
+        "status": "freezing",
+        "buildingDamageMultiplier": 2.8
+      }
+    }
+  ],
+}

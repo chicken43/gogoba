@@ -1,0 +1,39 @@
+{
+  "type": "missile",
+  "flying": true,
+  "template": "MissileUnitType",
+  "speed": 7,
+  "lifetime": 560,
+  "trailColor": "ffaa5f",
+  "trailLength": 10,
+  "drawCell": false,
+  "weapons": [
+    {
+      "shootCone": 360,
+      "mirror": false,
+      "reload": 1,
+      "shootOnDeath": true,
+      "shake": 1,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 0,
+        "spread": 20
+      },
+      "bullet": {
+        "type": "basicBulletType",
+        "hitEffect": "blastExplosion",
+        "killShooter": true,
+        "knockback": 0.8,
+        "lifetime": 560,
+        "speed": 2.2,
+        "damage": 48,
+        "width": 14,
+        "height": 14,
+        "splashDamageRadius": 560,
+        "splashDamage": 1485,
+        "backColor": "5461c5",
+        "frontColor": "6d7dff"
+      }
+    }
+  ]
+}

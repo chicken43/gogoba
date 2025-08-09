@@ -1,0 +1,44 @@
+{
+  "type": "mech",
+  "name": "[yellow]L_jungmu3",
+  "description": "fuck",
+  "drag": 0.15,
+  "speed": 4,
+  "armor": 10,
+  "health": 260,
+  "itemCapacity": 80,
+  "weapons": [
+    {
+      "name": "jungmugun",
+      "top": false,
+      "y": 1,
+      "x": 9,
+      "mirror": true,
+      "reload": 40,
+      "recoil": 3,
+      "shake": 2,
+      "ejectEffect": "casing2",
+      "shootSound": "artillery",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "hitEffect": "blastExplosion",
+        "knockback": 0.8,
+        "lifetime": 140,
+        "sprite": "shell",
+        "speed": 2.2,
+        "damage": 28,
+        "width": 14,
+        "height": 14,
+        "collides": true,
+        "collidesTiles": true,
+        "splashDamageRadius": 42,
+        "splashDamage": 85,
+        "lightning": 4,
+        "lightningLength": 8,
+        "lightningDamage": 24,
+        "backColor": "5461c5",
+        "frontColor": "6d7dff"
+      }
+    } 
+  ]
+}

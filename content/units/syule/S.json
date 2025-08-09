@@ -1,0 +1,42 @@
+{
+  "type": "crawl",
+  "name": "S",
+  "description": "fuckyou",
+  "health": 1200,
+  "armor": 14,
+  "drawCell": false,
+  "outlines": false,
+  "hitSize": 14,
+  "squareShape": false,
+  "segments": 14,
+  "omniMovement": false,
+  "rotateSpeed": 0.78,
+  "drownTimeMultiplier": 8,
+  "drawBody": false,
+  "hidden": false,
+  "crushDamage": 2,
+  "targetAir": false,
+  "segmentScl": 14,
+  "segmentPhase": 14,
+  "speed": 1,
+  "weapons": [
+    {
+      "x": 18,
+      "y": -3,
+      "reload": 6,
+      "mirror": false,
+      "rotate": true,
+      "name": "large-purple-mount",
+      "shootSound": "sap",
+      "bullet": {
+        "type": "LiquidBulletType",
+        "liquid": "water",
+        "speed": 3,
+        "lifetime": 60,
+        "damage": 20,
+        "pierce": true,
+        "status": "wet"
+      }
+    }
+  ],
+} 

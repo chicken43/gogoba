@@ -1,0 +1,28 @@
+{
+  "name": "copper drill",
+  "description": "can mine iron",
+  "type": "Drill",
+  "size": 2,
+  "liquidCapacity": 300,
+  "tier": 2,
+  "drillTime": 800,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 50
+    }
+    {
+      "item": "lead",
+      "amount": 10
+    },
+  ],
+  "category": "production",
+}

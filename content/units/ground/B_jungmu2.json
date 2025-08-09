@@ -1,0 +1,77 @@
+{
+  "type": "mech",
+  "name": "[orange]B_jungmu2",
+  "drag": 0.4,
+  "description": "f",
+  "health": 830,
+  "armor": 10,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "faceTarget": True,
+  "weapons": [
+    {
+      "x": 2,
+      "name": "none",
+      "y": -1,
+      "reload": 18,
+      "mirror": true,
+      "rotate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+      }
+    },
+     {
+      "name": "jumgmugun",
+      "top": false,
+      "y": 1,
+      "x": 9,
+      "reload": 40,
+      "rotate": true,
+      "recoil": 3,
+      "shake": 2,
+      "ejectEffect": "casing2",
+      "shootSound": "artillery",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "hitEffect": "blastExplosion",
+        "knockback": 0.8,
+        "lifetime": 140,
+        "speed": 2.2,
+        "damage": 48,
+        "width": 14,
+        "height": 14,
+        "collides": true,
+        "collidesTiles": true,
+        "splashDamageRadius": 42,
+        "splashDamage": 85,
+        "backColor": "5461c5",
+        "frontColor": "6d7dff"
+      }
+    } 
+  ]
+}

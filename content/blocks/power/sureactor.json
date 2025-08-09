@@ -1,0 +1,50 @@
+{
+  "type": "NuclearReactor",
+  "name": "SUREACTOR",
+  "description": "TROLL",
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "explosionShake": 10,
+  "explodeSound": "me-nrexp",
+  "itemCapacity": 60,
+  "liquidCapacity": 120,
+  "itemDuration": 360,
+  "powerProduction": 120,
+  "heating": 0.02,
+  "smokeThreshold": 0.58,
+  "explosionRadius": 140,
+  "explosionDamage": 10000,
+  "flashThreshold": 0.4,
+  "coolantPower": 0.5,
+  "fuelItem": "syukwiton",
+  "consumes": {
+    "liquids": [
+      {
+        "liquid": "water",
+        "amount": 0.2
+      }
+    ],
+    "items": {
+      "items": [
+        {
+          "item": "syukwiton",
+          "amount": 4
+        }
+      ]
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 700 },
+    { "item": "lead", "amount": 500 },
+    { "item": "graphite", "amount": 550 },
+    { "item": "metaglass", "amount": 600 },
+    { "item": "silicon", "amount": 100 },
+    { "item": "syunadeonyum", "amount": 20 },
+    { "item": "syukwiton", "amount": 40 }
+  ],
+  "category": "power"
+  "outputLiquid": "water/0.015",
+  "fogRadius": 3,
+}

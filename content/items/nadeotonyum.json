@@ -1,0 +1,10 @@
+{
+  "name": "nadeotonyum",
+  "description": "Highly radioactive nuclear raw materials.",
+  "cost": 2.5,
+  "color": "ffcc00",
+  "hardness": 5,
+  "flammability": 0,
+  "explosiveness": 2,
+  "radioactivity": 14,
+}

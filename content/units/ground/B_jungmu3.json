@@ -1,0 +1,108 @@
+{
+  "type": "mech",
+  "name": "[orange]B_jungmu3",
+  "drag": 0.4,
+  "description": "f",
+  "health": 1500,
+  "armor": 3,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": true,
+  "rotateSpeed": 2,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "faceTarget": True,
+  "weapons": [
+    {
+      "x": 2,
+      "name": "none",
+      "y": -1,
+      "reload": 18,
+      "mirror": true,
+      "rotate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+      }
+    },
+      {
+      "name": "jungmugun",
+      "reload": 147,
+      "x": 7,
+      "rotate": true,
+      "shake": 1,
+      "shoot": {
+        "shots": 4,
+        "shotDelay": 1,
+      },
+      "velocityRnd": 0.2,
+      "shootSound": "missile",
+      "inaccuracy": 5,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 8,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.003,
+        "homingRange": 60,
+        "keepVelocity": false,
+        "splashDamageRadius": 28,
+        "splashDamage": 16,
+        "lifetime": 50,
+        "trailColor": "5461c5",
+        "backColor": "5461c5",
+        "frontColor": "6d7dff",
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "weaveScale": 6,
+        "weaveMag": 1
+      }
+    },
+     {
+      "x": 2,
+      "name": "jumgmugun",
+      "y": -1,
+      "reload": 18,
+      "mirror": true,
+      "rotate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "collidesAir": true,
+        "collidesGround": false,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 8,
+        "pierce": false,
+        "buildingDamageMultiplier": 2.8
+      }
+    }
+  ]
+}
